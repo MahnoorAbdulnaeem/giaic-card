@@ -3,9 +3,12 @@ import Image from 'next/image';
 
 const Page = () => {
   return (
-    <div className= 'flex flex-col min-h-screen bg-white'>
+    <div className='flex flex-col min-h-screen bg-white'>
 
-      <div className='flex-grow flex items-center justify-center  p-6 '>
+      <div className='flex flex-wrap justify-center  gap-4'>
+        <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4'></div>
+
+
         <div className='bg-slate-200 p-12 rounded-sm shadow-sm max-w-4xl w-full flex items-center justify-center border-4 border-sky-300 ' >
 
 
