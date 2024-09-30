@@ -6,7 +6,7 @@ const Page = () => {
     <div className= 'flex flex-col min-h-screen bg-white'>
 
       <div className='flex-grow flex items-center justify-center  p-6 '>
-        <div className='bg-slate-200 p-12 rounded-lg shadow-lg max-w-4xl w-full flex items-center justify-center border-4 border-sky-300 ' >
+        <div className='bg-slate-200 p-12 rounded-sm shadow-sm max-w-4xl w-full flex items-center justify-center border-4 border-sky-300 ' >
 
 
           {/* Background image */}
