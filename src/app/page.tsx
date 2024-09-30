@@ -3,17 +3,17 @@ import Image from 'next/image';
 
 const Page = () => {
   return (
-    <div className='w-full h-screen bg-cover ' style={{backgroundImage:"url('images/5.jpg')"}}>
-   
+    <div className= 'flex flex-col min-h-screen bg-white'>
+
       <div className='flex-grow flex items-center justify-center  p-6 '>
         <div className='bg-slate-200 p-12 rounded-lg shadow-lg max-w-4xl w-full flex items-center justify-center border-4 border-sky-300 ' >
 
 
           {/* Background image */}
-           <div className='absolute inset-0 flex items-center justify-center'> 
-             <div className='relative w-full h-full max-w-[400px] max-h-[400px]'> 
+          <div className='absolute inset-0 flex items-center justify-center'>
+            <div className='relative w-full h-full max-w-[400px] max-h-[400px]'>
 
-              <Image src={require('../../public/images/4.jpg')} alt='background image' width={350} height={400} objectFit='cover'  className='opacity-10'
+              <Image src={require('../../public/images/4.jpg')} alt='background image' width={350} height={400} objectFit='cover' className='opacity-10'
               />
 
             </div>
@@ -30,10 +30,10 @@ const Page = () => {
 
 
 
-          
-                {/* logo Section */}
 
-       <img src="/images/2.jpg" alt="card logo" className='absolute top-[-25px] left-0 w-16 h-18 z-10' />
+            {/* logo Section */}
+
+            <img src="/images/2.jpg" alt="card logo" className='absolute top-[-25px] left-0 w-16 h-18 z-10' />
 
 
 
@@ -113,22 +113,22 @@ const Page = () => {
 
 
 
-              {/* Right section */}
-  <div className='w-1/3 text-center relative z-10'>
+          {/* Right section */}
+          <div className='w-1/3 text-center relative z-10'>
 
-<Image 
-src={require("../../public/images/3.jpg")} 
-alt='profile picture'
-width={800}
-height={800}
-className='  mb-6 w-full border border-blue-600'/>
+            <Image
+              src={require("../../public/images/3.jpg")}
+              alt='profile picture'
+              width={800}
+              height={800}
+              className='  mb-6 w-full border border-blue-600' />
 
-<p className='border-t-2 border-t-slate-400 pt-2 font-bold text-sky-500 mt-10 text-2xl'>Authorized Signature</p>
+            <p className='border-t-2 border-t-slate-400 pt-2 font-bold text-sky-500 mt-10 text-2xl'>Authorized Signature</p>
 
-  </div>
+          </div>
 
 
-   
+
 
 
 
